@@ -10,7 +10,7 @@
     <ul>
         @foreach (var listGummy in Model)
         {
-            <li>@Html.ActionLink((string) @listGummy.Name, "Details", new { id = listGummy.GummyId }) | @Html.ActionLink("Edit", "Edit", new { id = listGummy.GummyId }) | @Html.ActionLink("Delete", "Delete", new { id = listGummy.GummyId })</li>
+            <li>@Html.ActionLink((string) @listGummy.Name, "Details", new { id = listGummy.GummyId })</li>
         }
     </ul>
     <p>@Html.ActionLink("Add new item", "Create")</p>
