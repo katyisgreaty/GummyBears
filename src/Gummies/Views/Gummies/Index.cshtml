@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Gummies.Models.Gummy>
+
+<html>
+<head>
+    <title>Gummi Bear Kingdom</title>
+</head>
+<body>
+    <h2>Gummi Bear Kingdom</h2>
+    <h4>Our types of gummis:</h4>
+    <ul>
+        @foreach (var listGummy in Model)
+        {
+            <li>@Html.ActionLink((string) @listGummy.Name, "Details", new { id = listGummy.GummyId }) | @Html.ActionLink("Edit", "Edit", new { id = listGummy.GummyId }) | @Html.ActionLink("Delete", "Delete", new { id = listGummy.GummyId })</li>
+        }
+    </ul>
+    <p>@Html.ActionLink("Add new item", "Create")</p>
+</body>
+</html>

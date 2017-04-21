@@ -1,0 +1,16 @@
+﻿@model Gummies.Models.Gummy
+
+<html>
+<head>
+    <title>Gummi Kingdom - Details</title>
+</head>
+<body>
+    <h2>Gummi Kingdom - Details</h2>
+    <hr />
+    <h4>Candy Name: @Html.DisplayFor(model => model.Name)</h4>
+    <h5>@Html.DisplayNameFor(model => model.Cost): $@Html.DisplayFor(model => model.Cost)/bag</h5>
+    <h5>@Html.DisplayNameFor(model => model.Country) of Origin: @Html.DisplayFor(model => model.Country)</h5>
+    <h5>@Html.DisplayNameFor(model => model.Image): <img src="@Html.DisplayFor(model => model.Image)" alt="image of product" /></h5>
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+</body>
+</html>
