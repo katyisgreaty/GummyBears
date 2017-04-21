@@ -110,12 +110,13 @@ h5 {
 }
 
 .product-square {
-    width: 32%;
+   
     height: 320px;
 }
 
 .index-pic {
     padding-right: 12px;
+    margin-left: 15px;
 }
 
 .candy-name {
@@ -162,7 +163,7 @@ a {
 
 
 .detail-homelink {
-    margin-top: 40%;
+    margin-top: 10px;
     font-weight: 700;
     letter-spacing: .136em;
 }
@@ -189,6 +190,40 @@ input {
     margin-bottom: 25px;
     margin-top: 25px;
     font-weight: 700;
+}
+
+.bottom-detail-row {
+    margin-top: 60px;
+}
+
+.product-line {
+    padding-top: 10px;
+     border-bottom: solid 1px #6FCDE0;
+}
+
+.products-also {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.detail-also-pic {
+    height: 310px;
+    margin-left: 15px;
+}
+
+.candy-also-name {
+    text-align: center;
+    font-style: normal;
+    letter-spacing: .136em;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.detail-bottom-row {
+     border-bottom: solid 1px #6FCDE0;
+     padding-bottom: 40px;
 }
 
 

@@ -4,19 +4,22 @@
     ViewData["Title"] = "Gummi Bear Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    <h2>Add New Poduct</h2>
-    <hr />
+
+<div class="container">
     <h3>Add a new product</h3>
     @using (Html.BeginForm())
     {
         @Html.LabelFor(model => model.Name)
         @Html.TextBoxFor(model => model.Name)
+        <br />
 
         <label>Cost in Dollars Per Bag</label>
         @Html.TextBoxFor(model => model.Cost)
+        <br />
 
         <label>Country of Origin</label>
         @Html.TextBoxFor(model => model.Country)
+        <br />
 
         <label>URL link to image</label>
         @Html.TextBoxFor(model => model.Image)
@@ -24,5 +27,4 @@
 
     }
     <p>@Html.ActionLink("Back to list", "Index")</p>
-</body>
-</html>
+</div>
