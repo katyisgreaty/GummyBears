@@ -39,6 +39,8 @@ namespace Gummies
         {
             loggerFactory.AddConsole();
 
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
