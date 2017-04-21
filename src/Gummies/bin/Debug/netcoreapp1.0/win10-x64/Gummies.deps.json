@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/win10-x64",
-    "signature": "8c399e9cd196e2009dc18f64c5b3299b4f555eb1"
+    "signature": "7e87c021537a401b2b0c72970cfe9f30cdc4a596"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,9 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "1.1.1",
           "Microsoft.Extensions.Configuration.Json": "1.1.1",
           "Microsoft.EntityFrameworkCore": "1.1.1",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.EntityFrameworkCore.InMemory": "1.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.Extensions.Logging.Debug": "1.0.0"
         },
         "compile": {
           "Gummies.dll": {}
@@ -708,6 +710,14 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Design.Core.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/1.1.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -958,6 +968,15 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
+          "System.Diagnostics.Debug": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.Logging.Debug.dll": {}
         }
       },
       "Microsoft.Extensions.ObjectPool/1.1.0": {
@@ -3053,7 +3072,9 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "1.1.1",
           "Microsoft.Extensions.Configuration.Json": "1.1.1",
           "Microsoft.EntityFrameworkCore": "1.1.1",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.EntityFrameworkCore.InMemory": "1.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.Extensions.Logging.Debug": "1.0.0"
         },
         "runtime": {
           "Gummies.dll": {}
@@ -3741,6 +3762,14 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Design.Core.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/1.1.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -3991,6 +4020,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
+          "System.Diagnostics.Debug": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Logging.Debug.dll": {}
         }
       },
       "Microsoft.Extensions.ObjectPool/1.1.0": {
@@ -6438,6 +6476,11 @@
       "serviceable": true,
       "sha512": "sha512-H3pHksGErQSEwWyvISlDYMslIXftS4XB2m0AvqBS08ECGHagh27mqm/oIyUetzzRad+C2V0zpguJmR14eMiRaA=="
     },
+    "Microsoft.EntityFrameworkCore.InMemory/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0HGcrblJnPlW9EHLFKZ4uSFXOVbvtIymPNsbD+PoAm2B12oe8ImTgWHAgeYbCDLWHyETyN3D1sn8sqkqbo+uog=="
+    },
     "Microsoft.EntityFrameworkCore.Relational/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -6562,6 +6605,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oKfmQdH7c89QyFvolNhwIU3AME0LXOo89DTNbu0c3+b42/0UkJi3fT4Jz6Pg8AY38yYYP7lH/MFVxmbRqiUmhw=="
+    },
+    "Microsoft.Extensions.Logging.Debug/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8fP8pGJxieGa1DAYOF1RX+cCGGqdOGNoAQUzxmy27+qNzbHB/cUXc7mCZT72jPZMB4U12zSVWlIt26GMsUIOg=="
     },
     "Microsoft.Extensions.ObjectPool/1.1.0": {
       "type": "package",

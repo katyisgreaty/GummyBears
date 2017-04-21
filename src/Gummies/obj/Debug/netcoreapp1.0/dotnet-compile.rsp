@@ -62,6 +62,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore\1.1.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Design\1.0.0-preview2-final\lib\netcoreapp1.0\Microsoft.EntityFrameworkCore.Design.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Design.Core\1.0.0-preview2-final\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Design.Core.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.InMemory\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.InMemory.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.1.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Relational.Design\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.Design.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.SqlServer\1.1.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -87,6 +88,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Logging\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Logging.Console\1.1.1\lib\netstandard1.3\Microsoft.Extensions.Logging.Console.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Logging.Debug\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Debug.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.ObjectPool\1.1.0\lib\netstandard1.3\Microsoft.Extensions.ObjectPool.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Options\1.1.1\lib\netstandard1.0\Microsoft.Extensions.Options.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.PlatformAbstractions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.PlatformAbstractions.dll
@@ -202,8 +204,8 @@ C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Prog
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Startup.cs
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Controllers\GummiesController.cs
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Controllers\HomeController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Migrations\20170421163104_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Migrations\20170421163104_Initial.Designer.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Migrations\20170421212835_Initial.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Migrations\20170421212835_Initial.Designer.cs
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Migrations\GummiesContextModelSnapshot.cs
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Models\GummiesContext.cs
 C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Gummies\src\Gummies\Models\Gummy.cs

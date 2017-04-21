@@ -4,12 +4,12 @@
     ViewData["Title"] = "Gummi Bear Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    <h2>Gummi Kingdom - Details</h2>
-    <hr />
+
     <h4>Candy Name: @Html.DisplayFor(model => model.Name)</h4>
+<img class="detail-pic" src="@Html.DisplayFor(model => model.Image)" alt="image of product" />
     <h5>@Html.DisplayNameFor(model => model.Cost): $@Html.DisplayFor(model => model.Cost)/bag</h5>
     <h5>@Html.DisplayNameFor(model => model.Country) of Origin: @Html.DisplayFor(model => model.Country)</h5>
-    <h5>@Html.DisplayNameFor(model => model.Image): <img src="@Html.DisplayFor(model => model.Image)" alt="image of product" /></h5>
+    
 
     <p>@Html.ActionLink("Edit", "Edit", new { id = Model.GummyId })</p>
     <p>@Html.ActionLink("Delete", "Delete", new { id = Model.GummyId })</p>

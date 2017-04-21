@@ -8,7 +8,7 @@ using Gummies.Models;
 namespace Gummies.Migrations
 {
     [DbContext(typeof(GummiesContext))]
-    [Migration("20170421163104_Initial")]
+    [Migration("20170421212835_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
