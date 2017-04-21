@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+img {
+    height: 40px !important;
+}
+
 #title {
     font-family: 'Crimson Text', serif;
     text-transform: none;
