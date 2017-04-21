@@ -6,6 +6,22 @@
     text-transform: uppercase;
 }
 
+.navtron {
+    background-color: #91d7e6;
+    height: 46px;
+    color: white;
+    padding: 10px 0;
+    line-height: 1;
+    font-family: adobe-caslon-pro,serif;
+    font-style: italic;
+    letter-spacing: .01em;
+    font-size: 14px;
+    text-transform: none;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: bold;
+}
+
 #title {
     font-family: 'Crimson Text', serif;
     text-transform: none;
@@ -15,6 +31,14 @@
     margin-top: 0px;
     top: 20px;
 
+}
+
+.titletron {
+    margin-bottom: 0;
+    height: 80px;
+    padding-top: 7px;
+    padding-left: 28px;
+    background-color: white;
 }
 
 #top-bar {
@@ -30,13 +54,13 @@
     text-align: center;
 }
 
-.jumbotron {
-    margin-bottom: 0;
-    height: 100px;
-    padding-top: 28px;
-    padding-left: 33px;
-    background-color: white;
+#gums-jels {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: .136em;
+    padding-top: 78px;
 }
+
 
 font-family: 'Droid Serif', serif;
 font-family: 'Crimson Text', serif;
