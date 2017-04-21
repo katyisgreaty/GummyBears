@@ -27,6 +27,10 @@
     font-weight: bold;
 }
 
+img {
+    height: 230px;
+}
+
 .detail-pic {
     height: 600px;
 }
@@ -102,6 +106,10 @@ h5 {
     color: #3C3C3C !important;
     font-weight: 700 !important;
     font-size: 13px !important;
+}
+
+.product-square {
+    width: 32%;
 }
 
 

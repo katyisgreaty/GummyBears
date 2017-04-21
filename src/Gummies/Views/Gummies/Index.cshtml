@@ -10,7 +10,7 @@
         <h1 id="gums-jels">Gummies & Jellies</h1>
     </div>
 <div class="container">
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="column-header">
             Browse Products By
         </div>
@@ -38,12 +38,18 @@
         </div>
     </div>
     <h4>Our types of gummies:</h4>
-    <ul>
-        @foreach (var listGummy in Model)
-        {
-            <li>@Html.ActionLink((string)@listGummy.Name, "Details", new { id = listGummy.GummyId })</li>
-        }
-    </ul>
+    <div class="col-xs-9">
+        <div class="row">
+            @foreach (var listGummy in Model)
+            {
+                <div class="col-xs-4 product-square">
+                    <img class="index-pic" src="@listGummy.Image" alt="image of product" />
+                    <br>
+                    @Html.ActionLink((string)@listGummy.Name, "Details", new { id = listGummy.GummyId })
+                </div>
+            }
+        </div>
+    </div>
     <p>@Html.ActionLink("Add new item", "Create")</p>
 
 </div>
