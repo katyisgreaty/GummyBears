@@ -1,12 +1,11 @@
 ﻿@model IEnumerable<Gummies.Models.Gummy>
 
-<html>
-<head>
-    <title>Gummi Bear Kingdom</title>
-</head>
-<body>
+@{
+    ViewData["Title"] = "Gummi Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     <h2>Gummi Bear Kingdom</h2>
-    <h4>Our types of gummis:</h4>
+    <h4>Our types of gummies:</h4>
     <ul>
         @foreach (var listGummy in Model)
         {
@@ -14,5 +13,3 @@
         }
     </ul>
     <p>@Html.ActionLink("Add new item", "Create")</p>
-</body>
-</html>

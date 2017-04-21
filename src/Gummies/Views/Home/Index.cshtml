@@ -1,10 +1,7 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Gummy Bears</title>
-</head>
-<body>
+﻿@{
+    ViewData["Title"] = "Gummi Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     <h1>Gummies!</h1>
 
     <p>@Html.ActionLink("List", "Index", "Gummies")</p>
-</body>
-</html>

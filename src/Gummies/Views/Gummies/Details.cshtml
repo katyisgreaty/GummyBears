@@ -1,10 +1,9 @@
 ﻿@model Gummies.Models.Gummy
 
-<html>
-<head>
-    <title>Gummi Kingdom - Details</title>
-</head>
-<body>
+@{
+    ViewData["Title"] = "Gummi Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     <h2>Gummi Kingdom - Details</h2>
     <hr />
     <h4>Candy Name: @Html.DisplayFor(model => model.Name)</h4>
@@ -15,5 +14,4 @@
     <p>@Html.ActionLink("Edit", "Edit", new { id = Model.GummyId })</p>
     <p>@Html.ActionLink("Delete", "Delete", new { id = Model.GummyId })</p>
     <p>@Html.ActionLink("Back to list", "Index")</p>
-</body>
-</html>
+
