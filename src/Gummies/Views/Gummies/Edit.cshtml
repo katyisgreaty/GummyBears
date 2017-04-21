@@ -4,9 +4,9 @@
     ViewData["Title"] = "Gummi Bear Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    <h2>Edit</h2>
-    <hr />
-    <h4>Edit this product: @Html.DisplayFor(model => model.Name)</h4>
+
+<div class="container">
+    <h4 id="edit-header">Edit @Html.DisplayFor(model => model.Name)</h4>
 
     @using (Html.BeginForm())
     {
@@ -14,17 +14,22 @@
 
         @Html.LabelFor(model => model.Name)
         @Html.EditorFor(model => model.Name)
+        <br />
 
         @Html.LabelFor(model => model.Cost)
         @Html.EditorFor(model => model.Cost)
+        <br />
 
         @Html.LabelFor(model => model.Country)
         @Html.EditorFor(model => model.Country)
+        <br />
 
         @Html.LabelFor(model => model.Image)
         @Html.EditorFor(model => model.Image)
+        <br />
 
         <input type="submit" value="Save" />
     }
     <p>@Html.ActionLink("Back to Details Page", "Details", new { id = Model.GummyId })</p>
     <p>@Html.ActionLink("Back to list", "Index")</p>
+</div>

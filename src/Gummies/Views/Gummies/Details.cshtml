@@ -7,17 +7,19 @@
 
 <div class="container">
     <div class="row candy-row">
-        <div class="col-xs-7">
+        <div class="col-xs-6">
             <img class="detail-pic" src="@Html.DisplayFor(model => model.Image)" alt="image of product" />
         </div>
-        <div class="col-xs-5 candy-details">
-            <h4>Candy Name: @Html.DisplayFor(model => model.Name)</h4>
+        <div class="col-xs-6 candy-details">
+            <h4 class="detail-name">Candy Name: @Html.DisplayFor(model => model.Name)</h4>
             <h5>@Html.DisplayNameFor(model => model.Cost): $@Html.DisplayFor(model => model.Cost)/bag</h5>
-            <h5>@Html.DisplayNameFor(model => model.Country) of Origin: @Html.DisplayFor(model => model.Country)</h5>
+            <h5 class="detail-country">Imported from @Html.DisplayFor(model => model.Country)</h5>
+            <h5 class="detail-description">Get a taste of paradise with these juicy, delicious and fun-filled gummies.</h5>
 
             <p>@Html.ActionLink("Edit", "Edit", new { id = Model.GummyId })</p>
             <p>@Html.ActionLink("Delete", "Delete", new { id = Model.GummyId })</p>
-            <p>@Html.ActionLink("Back to list", "Index")</p>
+            
         </div>
     </div>
+    <p class="detail-homelink">@Html.ActionLink("Home", "Index")</p>
 </div>

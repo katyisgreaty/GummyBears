@@ -95,6 +95,16 @@ namespace Gummies
 
             context.Gummies.Add(autoGummy3);
 
+            var autoGummy8 = new Models.Gummy
+            {
+                Name = "Watermelon Slices",
+                Cost = "8",
+                Country = "Germany",
+                Image = "https://www.sugarfina.com/shop/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/a/watermelon_slices.jpeg"
+            };
+
+            context.Gummies.Add(autoGummy8);
+
             var autoGummy4 = new Models.Gummy
             {
                 Name = "Roses",
