@@ -1,3 +1,18 @@
 ﻿body {
-    background-color: azure;
+    font-family: brandon-grotesque,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .136em;
+    text-transform: uppercase;
 }
+
+#title {
+    font-family: 'Crimson Text', serif;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #91d7e6;
+}
+
+font-family: 'Droid Serif', serif;
+font-family: 'Crimson Text', serif;
