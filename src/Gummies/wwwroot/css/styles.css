@@ -12,6 +12,30 @@
     font-weight: lighter;
     font-size: 40px;
     color: #91d7e6;
+    margin-top: 0px;
+    top: 20px;
+
+}
+
+#top-bar {
+    background-image: url("https://www.sugarfina.com/wp-content/uploads/2015/07/candy_shop_title@2x.jpg") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 288px;
+    border-bottom: 1px solid #91D7E6;
+    border-top: 1px solid #91D7E6;
+    position: relative;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 33px;
+    background-color: white;
 }
 
 font-family: 'Droid Serif', serif;
