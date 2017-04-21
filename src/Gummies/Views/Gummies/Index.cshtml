@@ -44,8 +44,8 @@
             {
                 <div class="col-xs-4 product-square">
                     <img class="index-pic" src="@listGummy.Image" alt="image of product" />
-                    <br>
-                    @Html.ActionLink((string)@listGummy.Name, "Details", new { id = listGummy.GummyId })
+                   
+                 <p class="candy-name">@Html.ActionLink((string)@listGummy.Name, "Details", new { id = listGummy.GummyId })</p>
                 </div>
             }
         </div>

@@ -28,11 +28,12 @@
 }
 
 img {
-    height: 230px;
+    height: 220px;
+    
 }
 
 .detail-pic {
-    height: 600px;
+    height: 460px;
 }
 
 .icon-nav {
@@ -110,6 +111,33 @@ h5 {
 
 .product-square {
     width: 32%;
+    height: 320px;
+}
+
+.index-pic {
+    padding-right: 12px;
+}
+
+.candy-name {
+    text-align: center;
+    font-style: normal;
+    letter-spacing: .136em;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+a {
+    color: #3C3C3C !important;
+    margin-left: 5px;
+}
+
+.candy-row {
+    margin-top: 10%;
+}
+
+.candy-details {
+    margin-top: 6%;
 }
 
 
