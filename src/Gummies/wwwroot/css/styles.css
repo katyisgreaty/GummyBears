@@ -45,9 +45,12 @@ img {
     text-transform: none;
     font-weight: lighter;
     font-size: 34px;
-    color: #91d7e6;
     margin-top: 0px;
     top: 20px;
+}
+
+#title a{
+        color: #91d7e6 !important;
 
 }
 
